@@ -14,8 +14,8 @@ public class MinutesToYearsDaysCalculator {
         }
 
         int year = Math.round(minutes / 525600);
-        int days = Math.round((minutes % 525600)/1440);
-        System.out.printf("%d min = %d y and %d d%n",minutes, year, days);
+        int days = Math.round((minutes % 525600) / 1440);
+        System.out.printf("%d min = %d y and %d d%n", minutes, year, days);
 
     }
 }

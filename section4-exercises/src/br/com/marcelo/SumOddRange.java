@@ -9,7 +9,7 @@ public class SumOddRange {
 
 
     public static int sumOdd(int start, int end) {
-        if (start < 0 || start > end ) {
+        if (start < 0 || start > end) {
             return -1;
         }
 
@@ -24,11 +24,11 @@ public class SumOddRange {
     }
 
 
-        private static boolean isOdd(int number) {
-            if (number < 0) {
-                return false;
-            }
-            return (number % 2) != 0;
+    private static boolean isOdd(int number) {
+        if (number < 0) {
+            return false;
         }
+        return (number % 2) != 0;
+    }
 
 }

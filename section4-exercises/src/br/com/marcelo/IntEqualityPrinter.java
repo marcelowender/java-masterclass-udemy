@@ -4,7 +4,7 @@ public class IntEqualityPrinter {
 
 
     public static void main(String[] args) {
-        printEqual(3,1,3);
+        printEqual(3, 1, 3);
     }
 
 
