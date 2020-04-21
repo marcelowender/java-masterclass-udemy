@@ -19,14 +19,14 @@ public class FirstLastDigitSum {
         int sum = 0;
         int originalValue = number;
         while (number > 0) {
-            int remainder = number % 10;
+            int remainer = number % 10;
             if (originalValue == number) {
-                sum += remainder;
+                sum += remainer;    
             }
-            number -= remainder;
+            number -= remainer;
             number /= 10;
             if (number == 0) {
-                sum += remainder;
+                sum += remainer;
             }
 
         }

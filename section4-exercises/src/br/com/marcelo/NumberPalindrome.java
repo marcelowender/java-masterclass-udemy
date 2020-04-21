@@ -21,10 +21,10 @@ public class NumberPalindrome {
         int originaNumber = number;
         while (number > 0) {
 
-            int remainder = number % 10;
+            int remainer = number % 10;
             reverse *= 10;
-            reverse += remainder;
-            number -= remainder;
+            reverse += remainer;
+            number -= remainer;
             number /= 10;
         }
 

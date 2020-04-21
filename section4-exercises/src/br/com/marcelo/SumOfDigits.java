@@ -17,9 +17,9 @@ public class SumOfDigits {
         int sum = 0;
 
         while (number > 0) {
-            int remainder = number % 10;
-            sum += remainder;
-            number -= remainder;
+            int remainer = number % 10;
+            sum += remainer;
+            number -= remainer;
             number /= 10;
 
         }
