@@ -15,7 +15,7 @@ public abstract class Veichle {
      * <p>
      * <p>
      */
-    public abstract void turnOff();
+    public  abstract void turnOff();
 
     public void activeAccelerator() {
         activeEngine();

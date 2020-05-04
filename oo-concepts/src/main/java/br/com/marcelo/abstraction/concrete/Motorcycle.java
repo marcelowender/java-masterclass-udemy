@@ -11,7 +11,7 @@ public class Motorcycle extends Veichle {
 
     @Override
     public void activeAccelerator() {
-        System.out.println("Active Motorcycle Engine");
-        System.out.println("Activate Motorcycle Acelerator");
+        super.activeAccelerator();
+        System.out.println("Speed Up more Motorcycle");
     }
 }
