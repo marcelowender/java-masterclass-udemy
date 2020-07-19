@@ -1,6 +1,6 @@
 package br.com.marcelo;
 
-public class NumberPalindrome {
+public class NumberPalindrome extends Object {
 
     public static void main(String[] args) {
         System.out.println(isPalindrome(123));
@@ -8,7 +8,8 @@ public class NumberPalindrome {
     }
 
 
-    public static boolean isPalindrome(int number) {
+    public static boolean isPalindrome(Integer number) {
+
         if (number < 0) {
             number *= -1;
         }
